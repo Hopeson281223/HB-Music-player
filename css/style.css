@@ -287,3 +287,164 @@ video #background-video{
    from {transform : rotate(0deg);}
    to {transform: rotate(360deg);}
 }
+
+@media (max-width: 620px) {
+   body {
+    font-size: 40%;
+   }
+
+   .song-details {
+    width: 80%;
+    height: 60%;
+   }
+    
+   #song-details-container {
+    height: 80%;
+   }
+   .song-info {
+    font-size: 10px;
+   }
+   .song-cover {
+    height: 90%;
+   }
+   .song-img{
+    height: 80%;
+    width: 75%;
+   }
+   .player-tab {
+    width: 80%;
+   }
+   .player-bottom{
+    margin-top: 74px;
+   }   
+}
+
+@media (min-width: 614px) {
+    body {
+     font-size: 60%;
+    }
+ 
+    .song-details {
+     width: 80%;
+     height: 60%;
+    }
+     
+    #song-details-container {
+     height: 80%;
+    }
+    .song-info {
+     font-size: 10px;
+    }
+    .song-cover {
+     height: 95%;
+    }
+    .song-img{
+     height: 90%;
+     width: 70%;
+    }
+    .player-tab {
+     width: 80%;
+    }
+    .player-bottom{
+     margin-top: 55px;
+    }
+    
+ }
+
+ @media (min-width: 715px) {
+    body {
+     font-size: 60%;
+    }
+ 
+    .song-details {
+     width: 80%;
+     height: 60%;
+    }
+     
+    #song-details-container {
+     height: 80%;
+    }
+    .song-info {
+     font-size: 10px;
+    }
+    .song-cover {
+     height: 95%;
+    }
+    .song-img{
+     height: 90%;
+     width: 55%;
+    }
+    .player-tab {
+     width: 80%;
+    }
+    .player-bottom{
+     margin-top: 55px;
+    }    
+ } 
+
+ @media (min-width: 760px) {
+    body {
+     font-size: 60%;
+    }
+ 
+    .song-details {
+     width: 70%;
+     height: 60%;
+    }
+     
+    #song-details-container {
+     height: 80%;
+    }
+    .song-info {
+     font-size: 10px;
+    }
+    .song-cover {
+     height: 95%;
+    }
+    .song-img{
+     height: 90%;
+     width: 65%;
+      }
+    .player-tab {
+     width: 70%;
+    }
+    .player-bottom{
+     margin-top: 55px;
+    }    
+ } 
+ @media (min-width: 850px) {
+    .song-img {
+        width: 50%;
+    }
+ }
+ @media (min-width: 1045px) {
+    body {
+     font-size: 90%;
+    }
+ 
+    .song-details {
+     width: 70%;
+     height: 65%;
+    }
+     
+    #song-details-container {
+     height: 85%;
+    }
+    .song-info {
+     font-size: 15px;
+    }
+    .song-cover {
+     height: 90%;
+    }
+    .song-img{
+     height: 95%;
+     width: 46%;
+    }
+    .player-tab {
+     width: 70%;
+    }
+    .player-bottom{
+     margin-top: 5px;
+    }    
+ } 
+
