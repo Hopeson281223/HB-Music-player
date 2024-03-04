@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HB Music Player</title>
+        <link rel="icon" href="./other/img/favicon/HBfavicon.png">
+        <link rel="stylesheet" href="/other/font-awesome-4.7.0/css/font-awesome.min.css">
+        <link href="./css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <video id="background-video" autoplay muted loop>
+            <source src="./other/vid/background-vid.mp4" type="video/mp4">
+        </video>
+        <div class="container">
+            <div class="player-top">
+                <header>
+                    <div class="player-name"><h1>HB Music Player</h1></div>
+                </header>
+            </div>
+            <section class="song-details">
+                <div id="song-details-container">
+                    <div class="song-info"><p>Even When It Hurts (Praise Song) Hillsong UNITED (320K)</p></div>
+                    <div class="song-cover">
+                        <div class="song-img">
+                            <div class="song-img-center">
+                                <div class="song-img-middle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="player-tab">
+                <div class="player-container">
+                    <audio autoplay id="myAudio"></audio>
+                    <div class="timer-container">
+                        <div id="current-time">00:00</div>
+                        <div id="end-time">00:00</div>
+                    </div>
+                    <div id="meter-container">
+                        <input type="range" id="seek-bar" value="0" max="100" step="0.1">
+                        <!-- <div id="meter-bar"></div> -->
+                    </div>
+                    <div id="buttons-container">
+                        <div id="button-prev"><i class="fa fa-step-backward button-icon" aria-hidden="true"></i></div>
+                        <div id="button-play-pause"><i class="fa fa-play button-pp button-icon" aria-hidden="true"></i></div>
+                        <div id="button-next"><i class="fa fa-step-forward button-icon" aria-hidden="true"></i></div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="player-bottom">
+                <div><p>Copyright &copy; 2024</p></div>
+                <div id="par"><p>Hopeson Benderi</p></div>
+            </footer>
+        </div>
+
+        <script src="/js/script.js" rel="Javascript"></script>
+        <script src="/js/songs.js" rel="Javascript"></script>
+    </body>
+</html>
